@@ -1,0 +1,317 @@
+@import url('csslab-reseter_v2.css');
+@import url('fuentes.css');
+/*--- Estilos Generales---*/
+body{
+	background-color: #2d2d2d;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #fff
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#wrap{
+	width: 960px;
+	margin:auto;
+	/*---*/
+	clear: both;
+}
+/*--- header---*/
+header{
+	width: 100%;
+	float: left;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,dedbdf+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #dedbdf 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#dedbdf 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#dedbdf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dedbdf',GradientType=0 ); /* IE6-9 */
+	/*Extension-Distancia- tamano-Color	*/
+	box-shadow: 0px 3px 5px #000;
+		-moz-box-shadow: 0px 3px 5px #000;
+		-webkit-box-shadow: 0px 3px 5px #000;
+	position: fixed;
+}
+
+#subheader{
+	width: 960px;
+	margin:auto;
+}
+
+#logotipo{
+	float: left;
+	width: 300px;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#logotipo a{
+	font-family: CaviarDreams;
+	font-size: 20px;
+	color: #000;	
+}
+
+#logotipo a:hover{
+	text-decoration: none;
+}
+/*--Menu--*/
+#subheader nav{
+	float: left;
+	width: 660px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: right;
+}
+
+#subheader nav ul li{
+	display: inline;
+	font-family: CaviarDreams;
+}
+
+#subheader nav ul li a{
+	color: #000;
+	font-size: 18px;
+	padding: 10px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+}
+
+#subheader nav ul li a:hover{
+	text-decoration: none;
+	color: #fff;
+	background: #1798af;
+}
+/*---main---*/
+#main{
+	width: 100%;
+	margin:20px 0px 0px 0px;
+	float: left;
+	margin-top: 11%;
+}
+/*---slideshow---*/
+#slideshow{
+	width: 920px;
+	height: 260px;
+	float: left;
+	background: #000;
+	border:solid 20px #fff;
+	margin-bottom: 20px;
+}
+
+
+/*--Bienvenidos--*/
+#bienvenidos{
+	width: 920px;
+	float: left;
+	padding: 20px;
+		border-radius: 5px;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 5px;
+	margin: 20px 0px 20px 0px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e972e+0,205d2a+100 */
+	background: #2e972e; /* Old browsers */
+		background: -moz-linear-gradient(top, #2e972e 0%, #205d2a 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #2e972e 0%,#205d2a 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #2e972e 0%,#205d2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e972e', endColorstr='#205d2a',GradientType=0 ); /* IE6-9 */
+	/*Extension-distancia-tamaño*/
+	/*box-shadow: 0px 2px 2px #000;
+	-moz-box-shadow: 0px 2px 2px #000;
+	-webkit-box-shadow: 0px 2px 2px #000;*/
+    -webkit-box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+    box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+}
+
+#bienvenidos article hgroup h3 {
+	font-family: century-regular;
+	color: #fff;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+#bienvenidos article{
+	color: #fff;
+	line-height: 24px;
+}
+
+/*---contenido---*/
+#contenido{
+	width: 700px;
+	float: left;
+}
+
+#contenido article{
+	float: left;
+	margin-bottom: 20px;
+}
+
+#contenido article .titulo{
+	font-size: 22px;
+	font-family: century-bold;
+	color: #fff;
+}
+
+#contenido article .fecha{
+	font-size: 14px;
+	font-family: century-regular;
+	color: #1798af;
+	margin-bottom: 20px;
+}
+
+#contenido article .imagen{
+	width: 220px;
+	height: 150px;
+	float: left;
+	margin: 0px 10px 20px 0px;
+}
+
+#contenido article > p{
+	color: #8c8c8c;
+	font-size: 14px;
+	text-align: justify;
+	margin-right: 20px;
+	line-height: 140%;
+}
+
+/*---Sidebar---*/
+aside{
+    width: 220px;
+    /*height: 430px;*/
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    background: #4d78b3;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    /*box-shadow: 0px 2px 2px #000;
+        -moz-box-shadow: 0px 2px 2px #000;
+        -webkit-box-shadow: 0px 2px 2px #000;*/
+    -webkit-box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+    box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+}
+
+aside .widget{
+    margin-bottom: 10px;
+    float:left;
+}
+
+aside .widget > h3{
+    background: #fff;
+    color: #4d78b3;
+    width: 220px;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside .widget a{
+    color: #fff;
+}
+
+aside .widget ul li{
+    margin-bottom: 5px;
+    line-height: 145%;
+}
+
+aside .widget img{
+    width: 220px;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    float: left;
+    clear: both;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#777676+0,1e1e1e+100 */
+    background: #777676; /* Old browsers */
+    background: -moz-linear-gradient(top, #777676 0%, #1e1e1e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #777676 0%,#1e1e1e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #777676 0%,#1e1e1e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777676', endColorstr='#1e1e1e',GradientType=0 ); /* IE6-9 */
+    /*box-shadow: 0px 2px 2px #000;
+        -moz-box-shadow: 0px 2px 2px #000;
+        -webkit-box-shadow: 0px 2px 2px #000;*/
+     /*Sombra*/
+    -webkit-box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+    box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.55);
+    border-radius: 5px;
+}
+
+footer section{
+    width: 440px;
+    float: left;
+    padding: 20px;
+    font-family: century-regular;
+}
+
+footer #acerca-de {
+    font-family: arial,Helvetica, sans-serif;
+    font-size: 14px;
+    color:#919191;
+    text-align: justify;
+    line-height: 24px;
+}
+
+footer #acerca-de article h3{
+    font-family: century-regular;
+    font-size:  20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+footer #redes-s > div{
+    width: 220px;
+    height: 60px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+footer #redes-s > div img{
+    width: 67px;
+    height: 67px;
+    vertical-align: middle;/*para aliniar la imagen y el texto*/
+    margin-right: 5px;
+}
+
+footer #redes-s > div a{
+    width: 220px;
+    height: 70px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+footer #redes-s > div a:hover{
+    opacity: 1;
+}
+
+#wrap #copyright{
+    clear: both;
+    /*background: green;*/
+    width: auto;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: century-regular;
+    color: #fff;
+    font-size: 14px;
+}
